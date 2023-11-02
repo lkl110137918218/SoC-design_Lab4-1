@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Oct 31 10:13:28 2023
+# Process ID: 9214
+# Current directory: /home/ubuntu/course-lab_4/lab-exmem_fir/testbench/counter_la_fir
+# Command line: xsim -mode tcl -source {xsim.dir/counter_la_fir_tb_elab/xsim_script.tcl}
+# Log file: /home/ubuntu/course-lab_4/lab-exmem_fir/testbench/counter_la_fir/xsim.log
+# Journal file: /home/ubuntu/course-lab_4/lab-exmem_fir/testbench/counter_la_fir/xsim.jou
+# Running On: ubuntu2004, OS: Linux, CPU Frequency: 2904.008 MHz, CPU Physical cores: 2, Host memory: 10425 MB
+#-----------------------------------------------------------
+source xsim.dir/counter_la_fir_tb_elab/xsim_script.tcl
+# xsim {counter_la_fir_tb_elab} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Reading counter_la_fir.hex
+counter_la_fir.hex loaded into memory
+Memory 5 bytes = 0x6f 0x00 0x00 0x0b 0x13
+LA Test 1 started
+LA Test 2 passed
+$finish called at time : 5710012500 ps : File "/home/ubuntu/course-lab_4/lab-exmem_fir/testbench/counter_la_fir/counter_la_fir_tb.v" Line 174
+run: Time (s): cpu = 00:00:00.97 ; elapsed = 00:00:22 . Memory (MB): peak = 2851.340 ; gain = 0.000 ; free physical = 6096 ; free virtual = 9742
+exit
+INFO: xsimkernel Simulation Memory Usage: 125220 KB (Peak: 169040 KB), Simulation CPU Usage: 20910 ms
+INFO: [Common 17-206] Exiting xsim at Tue Oct 31 10:13:59 2023...
